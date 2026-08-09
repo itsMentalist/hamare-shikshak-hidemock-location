@@ -7,10 +7,7 @@
 .method public static bridge synthetic a(Landroid/location/Location;)Z
     .locals 0
 
-    .line 1
-    invoke-virtual {p0}, Landroid/location/Location;->isMock()Z
-
-    move-result p0
+    const/4 p0, 0x0
 
     return p0
 .end method
